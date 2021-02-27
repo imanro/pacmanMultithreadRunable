@@ -1,0 +1,11 @@
+plugins {
+    id "application"
+}
+apply plugin : "java"
+ext {
+    javaMainClass = "packman.Packman"
+}
+
+application {
+    mainClassName = javaMainClass
+}
